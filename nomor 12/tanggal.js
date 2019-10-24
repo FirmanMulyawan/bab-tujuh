@@ -19,7 +19,7 @@ btn.addEventListener('click', function () {
     yy1 = yy1 * 366;
     if (mm1 === 2) {
       mm1 = mm1 * 29;
-    } else if (mm1 === 1 || 3 || 5 || 7 || 8 || 10 || 12) {
+    } else if ((mm1 === 1) || (mm1 === 3) || (mm1 === 5) || (mm1 === 7) || (mm1 === 8) || (mm1 === 10) || (mm1 === 12)) {
       mm1 = mm1 * 31;
     } else {
       mm1 = mm1 * 30;
@@ -33,7 +33,7 @@ btn.addEventListener('click', function () {
     yy2 = yy2 * 366;
     if (mm2 === 2) {
       mm2 = mm2 * 29;
-    } else if (mm2 === 1 || 3 || 5 || 7 || 8 || 10 || 12) {
+    } else if ((mm2 === 1) || (mm2 === 3) || (mm2 === 5) || (mm2 === 7) || (mm2 === 8) || (mm2 === 10) || (mm2 === 12)) {
       mm2 = mm2 * 31;
     } else {
       mm2 = mm2 * 30;
